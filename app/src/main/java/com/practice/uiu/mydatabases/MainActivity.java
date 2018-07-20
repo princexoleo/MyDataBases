@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        initView();
+        initView(); //for initial all components view
 
         u_submit_btn.setOnClickListener(new View.OnClickListener() {
             @Override
